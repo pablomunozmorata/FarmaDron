@@ -1,0 +1,26 @@
+/*
+Custom Css
+*/
+/* Estilo para el contenedor del logo y el texto */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para el logo */
+.logo-image {
+    background-image: url('https://drive.google.com/uc?export=view&id=1ZaQJCNJQpnDOdpPqh-IsPSHQ7BgzJ5-C');
+    width: 150px; /* Ajusta según el tamaño real de tu logo */
+    height: 150px; /* Ajusta para mantener la proporción de tu logo */
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 10px; /* Añade un poco de margen entre el logo y el texto */
+}
+
+/* Estilo para el texto 'FARMADRON' */
+.navbar-brand span {
+    font-weight: bold;
+    font-size: 1.5em; /* Ajusta el tamaño del texto según necesites */
+    /* El color será aplicado por la clase 'text-success' */
+}
